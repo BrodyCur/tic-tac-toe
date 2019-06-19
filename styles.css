@@ -1,0 +1,32 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.game-board {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 95, 105);
+    width: 200px;
+    height: 200px;
+    font-size: 6em;
+    font-family: 'futura';
+    color: rgb(218, 0, 100);
+}
+
+.title {
+    text-align: center;
+    font-family: 'Futura';
+    color: rgb(195, 87, 84)
+}
